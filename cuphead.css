@@ -1,0 +1,820 @@
+/*** Cuphead Subreddit CSS V.1***/
+
+/**SubredditLinks **/
+#sr-header-area{
+    background-color:#282828;
+    font-size: 90%;
+    border:none;
+  }
+  .sr-bar a,
+  #sr-header-area .title {
+      color: #fff;
+  }
+  .userkarma{
+    color:white;
+  }
+  .separator {
+    color: white;
+    margin: 0px .7ex 0px .7ex;
+    cursor: default;
+  }
+  
+  .dropdown{
+  z-index:1;
+  }
+  
+  /***Header Image Snu **/
+  
+  /* The animation code */
+  
+   #header-img {
+    position: absolute;
+    width:60px;/*width:50px;*/
+    height:60px;/*height:80px;*/
+    margin-top:30px;
+    margin-left:20px;
+    z-index:0;
+    background-image:url(%%Cuphead-Snuu%%) ;
+    /*animation: play .8s steps(8) infinite;*/
+  }
+  
+  
+  @keyframes play {
+    from{ background-position: 0px;}
+     to{ background-position: -400px; }
+  }
+  
+  
+  /**Header BackgroundColor, Image, Snuu **/
+  
+  #header-bottom-left {
+    background-color: #c41e3a;
+    border-bottom: 40px #df2b17solid;
+    height:130px;
+  }
+  
+  
+  
+  .pagename a{
+    position: absolute;
+    left: 90px;
+    background: url(%%Cuphead-Banner-Mint%%) no-repeat;
+    display: block;
+    width: 338px;
+    height: 58px;
+    top: 50px;
+    overflow: hidden;
+    text-indent: 100%;
+  }
+  
+  #header-bottom-right{
+    background-color:#c41e3a;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size:14px;
+  }
+  
+  #header-bottom-right a{
+    color: white;
+  }
+  
+  #header-bottom-right a:hover{
+    color:#ffa0a0;
+  }
+  
+  /**Tab Menu **/
+  
+  ul.tabmenu {
+    position: absolute;
+    left: 10px;
+    
+  }
+  .tabmenu{
+    list-style-type: none;
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 110px;
+    vertical-align: bottom;
+    color:white;
+    border:none;
+  }
+  .tabmenu>li a{
+    background-color:transparent!important;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, Sans-Serif;
+    color:white;
+  
+  }
+  .tabmenu>li.selected a {
+    background-color:transparent!important;
+    z-index: 100;
+    border:none;
+    color:#ffa0a0;
+  }
+  
+  /** Tabmenu Formtabs **/
+  ul.tabmenu.formtab{
+    margin-top:-20px;
+    margin-left:300px;
+    color:black;
+   border-color:black;
+  }
+  ul.tabmenu.formtab a{
+    color:black;
+  }
+  ul.tabmenu.formtab .selected a{
+    color:black;
+  }
+  
+  
+  
+  
+  /**Link Styles **/
+  
+  .link{
+    border-bottom: 1px solid #D9D9D9;
+    border-right: 1px solid #D9D9D9;
+    padding: 15px;
+    margin: 4px 0 0 0;
+    background: white;
+    overflow: hidden;
+  }
+  
+  .thing .title {
+    font-weight: normal;
+    color:#b00000;
+    font-family: Helvetica, Arial, Sans-Serif;
+  
+  }
+  
+  .thing .title:visited {
+    color: #ffa0a0;
+  }
+  
+  .tagline{
+    color:d8d7d7;
+  }
+  
+  .thing .comments {
+    font-size: 12px;
+  }
+  
+  .thing .share{
+    font-size: 12px;
+  }
+  
+  .thing .save-button{
+    font-size: 12px;
+  }
+  
+  .thing .hide-button{
+      font-size: 12px;
+  }
+  
+  .thing .report-button{
+      font-size: 12px;
+  }
+  
+  
+  
+  /**Upvote Downvote **/
+  
+  .arrow{
+    width:400px;
+  }
+  
+  /**Upvote Clicked **/
+  
+  .arrow.upmod { 
+    background: url(%%Cuphead-Upvote-20x20%%) 0 0;
+    height:20px;
+    width:20px;
+    display: block;
+  }
+  
+  .arrow.up { 
+    background: url(%%Cuphead-Upvote-Unclicked-Dark-20x20%%) no-repeat 0 0; 
+    height:20px;
+    width:20px;
+    display: block;
+  
+  }
+  
+  .arrow.downmod { 
+    background: url(%%Mugman-Upvote-20x20%%) 0 0;
+    height:20px;
+    width:20px;
+    display: block;
+  }
+  
+  .arrow.down { 
+    background: url(%%Mugman-Upvote-Unclicked-20x20%%) no-repeat 0 0; 
+    height:20px;
+    width:20px;
+    display: block;
+  
+  }
+  
+  /** Both Upvote/Downvote Arrow Spacing Sized to size of arrows **/
+  .comment .midcol {
+    width: 20px;
+  }
+  
+  
+  
+  /************************************
+           Side Bar Content
+  ************************************/
+  
+  
+  /** Search Box **/
+  #search input[type="text"] {
+    margin-top: 0px;
+    height: 25px;
+    width: 300px;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid #ececec!important;
+    outline: none;
+    text-shadow: 0 1px 0 #fff;
+    color: black!important;
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+  }
+  
+  /** Submit Link **/
+  .morelink {
+    display: block;
+    text-align: center;
+    position: relative;
+    border: 1px solid #282828;
+    background: #ffffff none repeat-x scroll center left;
+    background-color:#292928;
+    background-position: 0px -278px;
+    background-repeat: repeat;
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 29px;
+    height: 30px; 
+    overflow: hidden;
+  }
+  .morelink a{
+    color:white;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, Sans-Serif;
+  }
+  .morelink a:hover{
+    background-color:#781911;
+  }
+  
+  .nub{
+    display:none;
+  }
+  
+  
+  /** Side Banner **/
+  .side .spacer:first-of-type {
+    padding-bottom: 410px;
+    background-image: url(%%Optimized-sidebanner%%);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  
+  .gadget .midcol {
+    width: 20px;
+    margin-right: 2px;
+    margin-bottom:4px;
+  }
+  
+  /*** Posts ***/
+  
+  
+  /*** Flairs ***/
+  
+  //These two Hides Flairs from Titles and Posts
+  .listing-page div.content .flair {
+  display: none!important;
+  }
+  
+  div.top-matter .flair {
+  display: none!important;
+  }
+  
+  #tab-templates {
+    margin-top: -5px;
+    background-color: black;
+  }
+  
+  #tab-grant{
+    margin-top: -5px;
+    background-color: black;
+  }
+  
+  #tab-link_templates{
+    margin-top: -5px;
+    background-color: black;
+  }
+  .usertable{
+    margin-top:80px;
+  }
+  .flairlist.pretty-form {
+    margin-top:50px;
+  }
+  
+  .flair {
+     background: url(%%spritesheet%%) no-repeat -9999px;
+     border: 0;
+     padding: 0;
+     vertical-align: top;
+  }
+  
+  /**
+  .flair-Cuphead {  
+    height: 20px;  
+    background-position: -5px -68px;
+    min-width: 20px;
+    text-indent: 23px;
+    border:none;
+  }
+  
+  .flair-Mugman {
+    height: 20px;  
+    background-position: -5px -94px;
+    min-width: 20px;
+    text-indent: 23px;
+    border:none;
+  }
+  **/
+  
+  
+  .flair-Boss{
+    height: 50px;
+    background-position: 0 0;
+    min-width: 50px;
+    border:none;
+  }
+  
+  .flair-Boss2{
+    height: 50px;
+    background-position: 0 -50px;
+    min-width: 50px;
+    border:none;
+  }
+  
+  .flair-Boss3{
+    height: 50px;
+    background-position: 0 -100px;
+    min-width: 50px;
+    border:none;
+  }
+  
+  .flair-Boss4{
+    height: 50px;
+    background-position: 0 -150px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss5{
+    height: 50px;
+    background-position: 0 -200px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss6{
+    height: 50px;
+    background-position: 0 -250px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss7{
+    height: 50px;
+    background-position: 0 -300px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss8{
+    height: 50px;
+    background-position: 0 -350px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss9{
+    height: 50px;
+    background-position: 0 -400px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss10{
+    height: 50px;
+    background-position: 0 -450px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss11{
+    height: 50px;
+    background-position: 0 -500px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss12{
+    height: 50px;
+    background-position: 0 -550px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss13{
+    height: 50px;
+    background-position: 0 -600px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss14{
+    height: 50px;
+    background-position: 0 -750px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss15{
+    height: 50px;
+    background-position: 0 -800px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss16{
+    height: 50px;
+    background-position: 0 -850px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss17{
+    height: 50px;
+    background-position: 0 -900px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss18{
+    height: 50px;
+    background-position: 0 -950px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss19{
+    height: 50px;
+    background-position: 0 -1000px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss20{
+    height: 50px;
+    background-position: 0 -1050px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss21{
+    height: 50px;
+    background-position: 0 -1100px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss22{
+    height: 50px;
+    background-position: 0 -1150px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss23{
+    height: 50px;
+    background-position: 0 -1200px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss24{
+    height: 50px;
+    background-position: 0 -1250px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss25{
+    height: 50px;
+    background-position: 0 -1300px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss26{
+    height: 50px;
+    background-position: 0 -1350px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss27{
+    height: 50px;
+    background-position: 0 -1400px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss28{
+    height: 50px;
+    background-position: 0 -1450px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss29{
+    height: 50px;
+    background-position: 0 -1500px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss30{
+    height: 50px;
+    background-position: 0 -1550px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss31{
+    height: 50px;
+    background-position: 0 -1600px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss32{
+    height: 50px;
+    background-position: 0 -1650px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss33{
+    height: 50px;
+    background-position: 0 -1700px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss34{
+    height: 50px;
+    background-position: 0 -1750px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss35{
+    height: 50px;
+    background-position: 0 -1800px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss36{
+    height: 50px;
+    background-position: 0 -1850px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss37{
+    height: 50px;
+    background-position: 0 -1900px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss38{
+    height: 50px;
+    background-position: 0 -1950px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss39{
+    height: 50px;
+    background-position: 0 -2000px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss40{
+    height: 50px;
+    background-position: 0 -2050px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss41{
+    height: 50px;
+    background-position: 0 -2100px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss42{
+    height: 50px;
+    background-position: 0 -2150px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss43{
+    height: 50px;
+    background-position: 0 -2200px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss44{
+    height: 50px;
+    background-position: 0 -2250px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss45{
+    height: 50px;
+    background-position: 0 -2300px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss46{
+    height: 50px;
+    background-position: 0 -2350px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss47{
+    height: 50px;
+    background-position: 0 -2400px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss48{
+    height: 50px;
+    background-position: 0 -2450px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss49{
+    height: 50px;
+    background-position: 0 -2500px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss50{
+    height: 50px;
+    background-position: 0 -2550px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss51{
+    height: 50px;
+    background-position: 0 -2600px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss52{
+    height: 50px;
+    background-position: 0 -2650px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss53{
+    height: 50px;
+    background-position: 0 -2700px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss54{
+    height: 50px;
+    background-position: 0 -2750px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss55{
+    height: 50px;
+    background-position: 0 -2800px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss56{
+    height: 50px;
+    background-position: 0 -2850px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss57{
+    height: 50px;
+    background-position: 0 -2900px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss58{
+    height: 50px;
+    background-position: 0 -2950px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss59{
+    height: 50px;
+    background-position: 0 -3000px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss60{
+    height: 50px;
+    background-position: 0 -3050px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss61{
+    height: 50px;
+    background-position: 0 -3100px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss62{
+    height: 50px;
+    background-position: 0 -3150px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss63{
+    height: 50px;
+    background-position: 0 -3200px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss64{
+    height: 50px;
+    background-position: 0 -3250px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss65{
+    height: 50px;
+    background-position: 0 -3300px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss66{
+    height: 50px;
+    background-position: 0 -3350px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss67{
+    height: 50px;
+    background-position: 0 -3400px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss68{
+    height: 50px;
+    background-position: 0 -3450px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss69{
+    height: 50px;
+    background-position: 0 -3500px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss70{
+    height: 50px;
+    background-position: 0 -3550px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss71{
+    height: 50px;
+    background-position: 0 -3600px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss72{
+    height: 50px;
+    background-position: 0 -3650px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss73{
+    height: 50px;
+    background-position: 0 -3700px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss74{
+    height: 50px;
+    background-position: 0 -3750px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-Boss75{
+    height: 50px;
+    background-position: 0 -3800px;
+    min-width: 50px;
+    border:none;
+  }
+  .flair-modFlair{
+     background: url(%%spritesheet%%) no-repeat -9999px;
+    height: 20px;
+    min-width: 20px;
+    text-indent: 23px;
+    border:none;
+  }
+  .flair-AudioTeam{
+    color:#ffffff ;
+    background-color:#FF0000;
+  }
+  .flair-Developer{
+    background-color:#282828;
+    color:#FFFFFF;
+  }
+  
