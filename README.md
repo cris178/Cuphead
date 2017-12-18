@@ -17,8 +17,8 @@ A good way to change unknown parts of a sub reddit and how I did it was to use t
 ## Built With
 
 * [Adobe Dreamweaver](http://www.dropwizard.io/1.0.2/docs/) - The web tool for keeping track of sites. 
-* [Git-Github](http://www.github.com) - For Version Control
-* [Photosho](http://www.photoshop.com/) - Used to resize large batches of images
+* [Git-Github](http://www.github.com) - For Version Control.
+* [Photoshop](http://www.photoshop.com/) - Used to resize large batches of images.
 
 ## Authors
 
@@ -26,7 +26,7 @@ A good way to change unknown parts of a sub reddit and how I did it was to use t
 
 ## Contributing
 
-Special Thanks to [Luke Elias /u/WhineySilver4838](https://www.reddit.com/user/whineysilver4838) who's design is currently the Snuu of the website after popular demand. 12/1/2017 
+Special Thanks to [Luke Elias /u/WhineySilver4838](https://www.reddit.com/user/whineysilver4838) who's design is currently the Snuu of the website after popular demand. Under images look for the Cuphead Snoo.ai file 12/1/2017 
 
 ## Acknowledgments
 
