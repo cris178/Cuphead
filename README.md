@@ -34,3 +34,4 @@ Special Thanks to [Luke Elias /u/WhineySilver4838](https://www.reddit.com/user/w
 * Shout outs to Studio MDHR
 * etc
 
+Subscriber Count - Over 20k! 3/20/2018
