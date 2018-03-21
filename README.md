@@ -1,6 +1,6 @@
 # Cuphead Subreddit
 
-This is the official CSS of the [Cuphead Subreddit](https://www.reddit.com/cuphead). It was made from scratch since before the game launched. The design was meant to mimick Cuphead himself with the red shorts and black top. Over time several features were added and will most likely continue to change forever. 
+This is the official CSS of the [Cuphead Subreddit](https://www.reddit.com/r/cuphead). It was made from scratch since before the game launched. The design was meant to mimick Cuphead himself with the red shorts and black top. Over time several features were added and will most likely continue to change forever. 
 
 Reading this CSS is also a good way to get around to how everything is modified in order to significantly change a subreddit so use it as tutorial/study guide if you want. Some of the CSS is well commented, the images themselves on the other hand... 
 
