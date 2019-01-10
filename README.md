@@ -2,11 +2,11 @@
 
 This is the official CSS of the [Cuphead Subreddit](https://www.reddit.com/r/cuphead). It was made from scratch since before the game launched. The design was meant to mimick Cuphead himself with the red shorts and black top. Over time several features were added and will most likely continue to change forever. 
 
-Reading this CSS is also a good way to get around to how everything is modified in order to significantly change a subreddit so use it as tutorial/study guide if you want. Some of the CSS is well commented, the images themselves on the other hand... 
+Reading the provided CSS is a good way in learning how everything is modified in a sub reddit's CSS. I tried to comment some important divs/tags to target in order to significantly change a subreddit. Use it as tutorial/study guide if you want. 
 
 ### Prerequisites
 
-If there are other redditors reading this who have no CSS experience I suggest taking a few lessons for free over at [Codecademy.](https://www.Codecademy.com) That's where I learned some of the basics and was the go to site my old CC used as HW for Web Design courses.  
+If there are other redditors reading this who have no CSS experience I suggest taking a few lessons for free over at [Codecademy.](https://www.Codecademy.com) that's where I learned some of the basics. Not only that but some colleges even use the site as a homework, I know mine did.
 
 ## Getting Started
 
