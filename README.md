@@ -2,7 +2,7 @@
 
 ![Cuphead](https://i.imgur.com/e6Yp4op.png)
 
-This is the official CSS of the [Cuphead Subreddit](https://www.reddit.com/r/cuphead). It was made from scratch since before the game launched. The design was meant to mimick Cuphead himself with the red shorts and black top. Over time several features were added and will most likely continue to change forever. 
+This is the official CSS of the [Cuphead Subreddit](https://www.reddit.com/r/cuphead). It was made from scratch since before the game launched. The design was meant to mimick Cuphead himself with the red shorts and black top. Over time several features were added and will most likely continue to change forever. The sub reddit features custom upvote and downvote pngs and has several flairs from the games villain gallery. 
 
 Reading the provided CSS is a good way to learn how Reddit allows users to change the CSS of the old sub reddit pages. I tried to comment some important divs/tags to target in order to significantly change a subreddit. Use it as tutorial/study guide if you want. 
 
